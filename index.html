@@ -4,40 +4,39 @@
 	<head>
 			<!-- Required meta tags -->
 			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">-->
 			
 			<!-- Bootstrap CSS -->
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 			<link rel="stylesheet" type="text/css" href="src/styles.css" media="screen" />
-			<title>Dice Pig Game</title>
+			<title>Visual Calculator</title>
 	</head>
 
 	<body>
 		<!--The timer will go into last column, others will stay empty for a future use-->
-		<div class="container-fluid">
-			<div class="row d-flex align-items-center justify-content-end">
+		<div class="container-fluid justify-content-around align-items-center">
+			<div class="row d-flex align-items-center justify-content-end border border-warning top-block">
 				<div class="col-md-4">
 				</div>
 				<div class="col-md-4">
 				</div>
-				<div class="col-md-4" id="timer-box">
+				<div class="col-md-4 border border-color-info" id="timer-box">
 				</div>
 			</div>
 			<!--Row with a number display and session statistics-->
-			<div class="row d-flex align-items-center justify-content-around">
-				<div class="col-md-8 d-block" id="number-box">
+			<div class="row d-flex align-items-center justify-content-around border border-danger middle-block">
+				<div class="col-sm-8 col-md-8 col-lg-4 d-block" id="number-box">
 				</div>
-				<div class="col-md-4 d-block" id="statistics-box">
-				<p>let's say something here just to display the block</p>
+				<div class="col-sm-4 col-md-3 col-lg-3 d-block border border-danger" id="statistics-box">
 				</div>
 			</div>
 			<!--Main button row-->
-			<div class="row d-flex align-items-center justify-content-center">
-					<div class="col-md-12">
+			<div class="row d-flex align-items-center justify-content-center border border-danger bottom-block">
 							<a href="#" class="btn btn-info btn-lg" type="button">Hit me!</a>
-					 </div>
+					
 				</div>
 			</div>
 		</div>
 	</body>
 </html>
+
