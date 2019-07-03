@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+#number-box {
+  margin: 1px;
+  width: 82vw;
+  height: 30vh;
+  background-color: #6ab417;
+}
+#statistics-box {
+  margin: 1px;
+  border: 4px;
+  border-color: red;
+  width: 10vw;
+  height: 30vh;
+}
