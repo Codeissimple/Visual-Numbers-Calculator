@@ -1,16 +1,36 @@
 body {
   font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top-block {
+  height: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.middle-block {
+  height: 40vh;
+  margin-bottom: 10vh;
+}
+.bottom-block {
+  height: 30vh;
+}
+#timer-box {
+  height: 8vh;
 }
 #number-box {
   margin: 1px;
-  width: 82vw;
-  height: 30vh;
-  background-color: #6ab417;
+  background-color: #7a7a79;
 }
 #statistics-box {
   margin: 1px;
   border: 4px;
   border-color: red;
   width: 10vw;
-  height: 30vh;
+}
+
+.hit-me {
+  margin: 30px;
 }
